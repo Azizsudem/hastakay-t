@@ -8,23 +8,23 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\azizs\\.nuget\\packages\\": {},
+    "C:\\Users\\sevil\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\azizs\\source\\repos\\deneme\\deneme.csproj",
+      "projectUniqueName": "C:\\Users\\sevil\\OneDrive - uludag.edu.tr\\Masaüstü\\hastakay-t\\deneme.csproj",
       "projectName": "deneme",
-      "projectPath": "C:\\Users\\azizs\\source\\repos\\deneme\\deneme.csproj",
-      "packagesPath": "C:\\Users\\azizs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\azizs\\source\\repos\\deneme\\obj\\",
+      "projectPath": "C:\\Users\\sevil\\OneDrive - uludag.edu.tr\\Masaüstü\\hastakay-t\\deneme.csproj",
+      "packagesPath": "C:\\Users\\sevil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sevil\\OneDrive - uludag.edu.tr\\Masaüstü\\hastakay-t\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\azizs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sevil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -75,7 +75,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

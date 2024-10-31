@@ -14,3 +14,20 @@ C:\Users\azizs\source\repos\deneme\obj\Debug\net8.0-windows\refint\deneme.dll
 C:\Users\azizs\source\repos\deneme\obj\Debug\net8.0-windows\deneme.pdb
 C:\Users\azizs\source\repos\deneme\obj\Debug\net8.0-windows\deneme.genruntimeconfig.cache
 C:\Users\azizs\source\repos\deneme\obj\Debug\net8.0-windows\ref\deneme.dll
+C:\Users\sevil\OneDrive - uludag.edu.tr\Masaüstü\hastakay-t\bin\Debug\net8.0-windows\deneme.exe
+C:\Users\sevil\OneDrive - uludag.edu.tr\Masaüstü\hastakay-t\bin\Debug\net8.0-windows\deneme.deps.json
+C:\Users\sevil\OneDrive - uludag.edu.tr\Masaüstü\hastakay-t\bin\Debug\net8.0-windows\deneme.runtimeconfig.json
+C:\Users\sevil\OneDrive - uludag.edu.tr\Masaüstü\hastakay-t\bin\Debug\net8.0-windows\deneme.dll
+C:\Users\sevil\OneDrive - uludag.edu.tr\Masaüstü\hastakay-t\bin\Debug\net8.0-windows\deneme.pdb
+C:\Users\sevil\OneDrive - uludag.edu.tr\Masaüstü\hastakay-t\obj\Debug\net8.0-windows\deneme.Form1.resources
+C:\Users\sevil\OneDrive - uludag.edu.tr\Masaüstü\hastakay-t\obj\Debug\net8.0-windows\deneme.csproj.GenerateResource.cache
+C:\Users\sevil\OneDrive - uludag.edu.tr\Masaüstü\hastakay-t\obj\Debug\net8.0-windows\deneme.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sevil\OneDrive - uludag.edu.tr\Masaüstü\hastakay-t\obj\Debug\net8.0-windows\deneme.AssemblyInfoInputs.cache
+C:\Users\sevil\OneDrive - uludag.edu.tr\Masaüstü\hastakay-t\obj\Debug\net8.0-windows\deneme.AssemblyInfo.cs
+C:\Users\sevil\OneDrive - uludag.edu.tr\Masaüstü\hastakay-t\obj\Debug\net8.0-windows\deneme.csproj.CoreCompileInputs.cache
+C:\Users\sevil\OneDrive - uludag.edu.tr\Masaüstü\hastakay-t\obj\Debug\net8.0-windows\deneme.sourcelink.json
+C:\Users\sevil\OneDrive - uludag.edu.tr\Masaüstü\hastakay-t\obj\Debug\net8.0-windows\deneme.dll
+C:\Users\sevil\OneDrive - uludag.edu.tr\Masaüstü\hastakay-t\obj\Debug\net8.0-windows\refint\deneme.dll
+C:\Users\sevil\OneDrive - uludag.edu.tr\Masaüstü\hastakay-t\obj\Debug\net8.0-windows\deneme.pdb
+C:\Users\sevil\OneDrive - uludag.edu.tr\Masaüstü\hastakay-t\obj\Debug\net8.0-windows\deneme.genruntimeconfig.cache
+C:\Users\sevil\OneDrive - uludag.edu.tr\Masaüstü\hastakay-t\obj\Debug\net8.0-windows\ref\deneme.dll

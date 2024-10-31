@@ -5,6 +5,7 @@ namespace deneme
     public partial class Form1 : Form
     {
         BindingList<Hasta> hastalar = new BindingList<Hasta>();
+
         public Form1()
         {
             InitializeComponent();
@@ -25,26 +26,42 @@ namespace deneme
 
         private void btnKaydet_Click(object sender, EventArgs e)
         {
-            int Id = Convert.ToInt32(textId.Text);
-            string adSoyad = textAdSoyad.Text;
-            string birim = cmbBirim.Text;
-            int yas = Convert.ToInt32(textYas.Text);
-            bool sigorta = Sigorta.Checked;
-            DateTime dateTime = dtTarih.Value;
+            if (!string.IsNullOrWhiteSpace(textId.Text) && !string.IsNullOrWhiteSpace(textYas.Text) &&
+                int.TryParse(textId.Text, out int id) && int.TryParse(textYas.Text, out int yas))
+            {
+                string adSoyad = textAdSoyad.Text;
+                string birim = cmbBirim.Text;
+                bool sigorta = Sigorta.Checked;
+                DateTime dateTime = dtTarih.Value;
 
-            Hasta hasta = new Hasta { Id = Id, AdSoyad = adSoyad, Birim = birim, Tarih = dateTime, Sigorta = sigorta, Yas = yas };
+                Hasta hasta = new Hasta
+                {
+                    Id = id,
+                    AdSoyad = adSoyad,
+                    Birim = birim,
+                    Tarih = dateTime,
+                    Sigorta = sigorta,
+                    Yas = yas
+                };
 
-            hastalar.Add(hasta);
+                hastalar.Add(hasta);
+                MessageBox.Show("Hasta baþarýyla kaydedildi.");
+            }
+            else
+            {
+                MessageBox.Show("Lütfen geçerli bilgiler girin.");
+            }
         }
-        private void dataGridViev1_SelectionChanged(object sender, EventArgs e)
+
+        private void dataGridView1_SelectionChanged(object sender, EventArgs e)
         {
-            if (dataGridView1.SelectedRows.Count < 0);
+            if (dataGridView1.SelectedRows.Count > 0)
             {
                 Hasta hasta = (Hasta)dataGridView1.SelectedRows[0].DataBoundItem;
 
                 textId.Text = hasta.Id.ToString();
                 textAdSoyad.Text = hasta.AdSoyad;
-                textYas.Text = hasta.Yas.ToString();   
+                textYas.Text = hasta.Yas.ToString();
                 cmbBirim.Text = hasta.Birim;
                 dtTarih.Value = hasta.Tarih;
                 Sigorta.Checked = hasta.Sigorta;
